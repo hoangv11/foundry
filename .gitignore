@@ -1,0 +1,33 @@
+# IDE
+/.vscode
+
+# Environment
+/env
+.env
+.env.*
+*.env
+!.env.example
+
+# Python
+/server/venv
+*.venv
+*.pyc
+*__pycache__
+
+# Logs
+*.log
+server.log
+uagents_core.log
+
+# Generated files
+branding_video.mp4
+
+# Dependencies
+node_modules/
+.next/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
